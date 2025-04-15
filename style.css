@@ -30,3 +30,28 @@ h1 {
 .oyun-listesi a:hover {
     color: #00d4aa;
 }
+/* styles.css */
+#link-container {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    font-size: 20px;
+    background-color: #f00;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+#nah-image-container {
+    display: none; /* Başlangıçta fotoğrafı gizle */
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    z-index: 10;
+}
+
+#nah-image {
+    width: 200px;
+    height: auto;
+}
